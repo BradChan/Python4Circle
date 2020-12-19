@@ -17,7 +17,7 @@ C/C++编译型编程语言等；编程圆具有丰富的拟人化的传感器输
 .. toctree::
    :maxdepth: 1
    
-   
+   intro/circle_intro.rst
    
 
 使用功能模块
