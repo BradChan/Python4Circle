@@ -18,7 +18,12 @@ C/C++编译型编程语言等；编程圆具有丰富的拟人化的传感器输
    :maxdepth: 1
    
    intro/circle_intro.rst
-   
+   intro/install_mu.rst
+   intro/install_circuitPython.rst
+   intro/the_circuitpy_drive.rst
+   intro/create_editing_code.rst
+   intro/interacting_with_the_serial_console.rst
+   intro/the_repl.rst
 
 使用功能模块
 -----------------------------------------------
@@ -26,6 +31,15 @@ C/C++编译型编程语言等；编程圆具有丰富的拟人化的传感器输
 .. toctree::
    :maxdepth: 1
 
+   circle/circle_intro.rst
+   circle/circle_red_led.rst
+   circle/circle_btn.rst
+   circle/circle_touch.rst
+   circle/circle_pixels.rst
+   circle/circle_temperature.rst
+   circle/circle_acceleration.rst
+   circle/circle_speak.rst
+   circle/circle_shake.rst
 
 Python API
 -----------------------------------------------
