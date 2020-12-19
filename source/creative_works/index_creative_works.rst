@@ -19,7 +19,7 @@
    _8_faster_game.rst
    _9_sand_clock.rst
    _10_level_meter.rst
-   _11_ jumpy_colors.rst
-   _12_ keyboard_mouse.rst
+   _11_jumpy_colors.rst
+   _12_keyboard_mouse.rst
 
 
