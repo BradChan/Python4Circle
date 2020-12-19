@@ -11,7 +11,6 @@
 .. _图形化编程工具: http://www.hibottoy.com/HiiBotCircle.html
 
 
-.. image:: ../_static/intro/circle.gif
 
 .. image:: ../_static/intro/circle_works.png
 
