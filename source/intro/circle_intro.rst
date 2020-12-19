@@ -1,10 +1,10 @@
 ======================
-编程圆简介1
+编程圆简介
 ======================
 
 
 
-.. image:: ../_static/intro/circle.gif
+
 
 .. image:: ../_static/intro/circle_works.png
 
