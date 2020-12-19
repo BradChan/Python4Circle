@@ -4,7 +4,7 @@
 
 
 
-
+.. image:: ../_static/intro/circle.gif
 
 .. image:: ../_static/intro/circle_works.png
 
