@@ -22,13 +22,13 @@
 .. code-block::  python
   :linenos:
 
-import time
-from  hiibot_circle  import  hbc
+  import time
+  from  hiibot_circle  import  hbc
 
-while True:
-    nowL = hbc.lightness
-    print( "lightness: {} ".format(nowL) )
-    time.sleep(0.5)
+  while True:
+      nowL = hbc.lightness
+      print( "lightness: {} ".format(nowL) )
+      time.sleep(0.5)
 
 ----------------------------
 
