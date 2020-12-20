@@ -16,8 +16,6 @@
   B. 亮度属性是所有灯珠的亮度，编程圆不支持单颗或部分灯珠亮度的调节
   C. 当灯珠亮度较高时，切勿裸眼直视灯珠！
 
-
-
 2) 某颗彩色灯珠的颜色属性：hbc.pixels[index]；有效值为turple型，即(R, G, B)型，其中每个颜色分量的范围是0~255。用法如下：
 
 .. code-block::  python
@@ -217,4 +215,19 @@
   while True:
       hbc.showAnimation_wipe( 0.2, 4.0, (255,0,0) )
 
+14) 刷新彩色灯珠的颜色：pixels.show()。用法如下：
+
+.. code-block::  python
+  :linenos:
+
+  import time
+  from  hiibot_circle  import  hbc
+  hbc.pixels.brightness = 0.1  # 将所有灯珠的亮度设置为20%
+  hbc.drawRainbow(0)
+  b = [0.0, 0.02, 0.04, 0.1, 0.2, 0.6, 0.8, 1.0, 1.0, 0.8, 0.6, 0.2, 0.1, 0.04, 0.02, 0.0]
+  while True:
+      for ib in b:
+          hbc.pixels.brightness = ib  # 设置亮度
+          hbc.pixels.show()  # 刷新彩色灯珠的颜色
+          time.sleep(0.2) # 延迟0.2s
 
