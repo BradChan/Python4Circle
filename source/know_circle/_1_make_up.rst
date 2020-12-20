@@ -2,7 +2,7 @@
 编程圆简介
 ====================
 
-.. image::  _static/images/know_circle/circle_elements0.png
+.. image::   ../_static/images/know_circle/circle_elements0.png
   :scale: 30%
   :align: center
 
